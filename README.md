@@ -4,26 +4,10 @@ A collection of custom Odoo modules for Odoo 19.0.
 
 ## Modules
 
-### auditlog
-
-Audit Log module for tracking model operations. It provides comprehensive logging of create, read, write, and unlink operations on configured models.
-
-**Features:**
-- Track create, read, write, and delete operations
-- Configure which models to audit
-- HTTP request and session logging
-- Auto-vacuum for old logs
-
-### partner_multi_relation
-
-Module for managing various types of relations between partners.
-
-**Features:**
-- Define custom relation types with bidirectional names
-- Constrain relations by partner type (Person/Company)
-- Support for reflexive and symmetric relations
-- Search partners by their relations
-- Smart button on partner form view
+| Module | Description |
+| ------ | ----------- |
+| auditlog | Audit Log module for tracking model operations. Provides comprehensive logging of create, read, write, and delete operations on configured models. |
+| partner_multi_relation | Module for managing various types of relations between partners. Supports custom relation types, partner type constraints, reflexive and symmetric relations. |
 
 ## Requirements
 
