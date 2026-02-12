@@ -3,8 +3,8 @@
 {
     "name": "Partner Relations",
     "version": "19.0.1.0.0",
-    "author": "Therp BV,Camptocamp,Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/partner-contact",
+    "author": "Vin",
+    "website": "https://github.com/vinwang/odoo-addons",
     "complexity": "normal",
     "category": "Customer Relationship Management",
     "license": "AGPL-3",
