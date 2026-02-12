@@ -6,8 +6,8 @@ A collection of custom Odoo modules for Odoo 19.0.
 
 | Module | Description |
 | ------ | ----------- |
-| auditlog | Based on OCA/server-tools. Audit Log module for tracking model operations. Provides comprehensive logging of create, read, write, and delete operations on configured models. |
-| partner_multi_relation | Based on OCA/partner-contact. Module for managing various types of relations between partners. Supports custom relation types, partner type constraints, reflexive and symmetric relations. |
+| vin_auditlog | Based on OCA/server-tools. Audit Log module for tracking model operations. Provides comprehensive logging of create, read, write, and delete operations on configured models. |
+| vin_partner_relation | Based on OCA/partner-contact. Module for managing various types of relations between partners. Supports custom relation types, partner type constraints, reflexive and symmetric relations. |
 
 ## Requirements
 
