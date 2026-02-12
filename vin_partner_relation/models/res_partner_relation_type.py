@@ -4,7 +4,7 @@
 
 from odoo import api, fields, models
 from odoo.exceptions import ValidationError
-from odoo.osv.expression import AND, OR
+from odoo.fields import Domain
 
 HANDLE_INVALID_ONCHANGE = [
     (
@@ -134,16 +134,16 @@ class ResPartnerRelationType(models.Model):
                 continue
             invalid_conditions = [(0, "=", 1)]
             for side in ["left", "right"]:
-                invalid_conditions = OR(
+                invalid_conditions = Domain.OR(
                     [invalid_conditions, get_type_condition(vals, side)]
                 )
-                invalid_conditions = OR(
+                invalid_conditions = Domain.OR(
                     [invalid_conditions, get_category_condition(vals, side)]
                 )
             if not invalid_conditions:
                 continue
             # only look at relations for this type
-            invalid_domain = AND([[("type_id", "=", this.id)], invalid_conditions])
+            invalid_domain = Domain.AND([[("type_id", "=", this.id)], invalid_conditions])
             invalid_relations = relation_model.with_context(active_test=False).search(
                 invalid_domain
             )

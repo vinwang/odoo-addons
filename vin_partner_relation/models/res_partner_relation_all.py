@@ -186,7 +186,7 @@ class ResPartnerRelationAll(models.Model):
         return ""
 
     def _auto_init(self):
-        cr = self._cr
+        cr = self.env.cr
         drop_view_if_exists(cr, self._table)
         cr.execute(
             self._get_statement(),

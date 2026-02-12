@@ -5,8 +5,17 @@
 import numbers
 
 from odoo import api, exceptions, fields, models
-from odoo.osv.expression import FALSE_LEAF, OR, is_leaf
+from odoo.fields import Domain
+from odoo.orm.domains import CONDITION_OPERATORS
 from odoo.tools.safe_eval import safe_eval
+
+
+def _is_leaf(element):
+    """Check if an element is a valid domain leaf (field, operator, value)."""
+    return (isinstance(element, (list, tuple)) 
+            and len(element) == 3 
+            and isinstance(element[1], str) 
+            and element[1] in CONDITION_OPERATORS)
 
 
 class ResPartner(models.Model):
@@ -21,7 +30,6 @@ class ResPartner(models.Model):
         comodel_name="res.partner.relation.all",
         inverse_name="this_partner_id",
         string="All relations with current partner",
-        auto_join=True,
         search=False,
         copy=False,
     )
@@ -93,9 +101,9 @@ class ResPartner(models.Model):
                 ]
             )
         if not relation_type_selection:
-            result = [FALSE_LEAF]
+            result = [Domain.FALSE]
         for relation_type in relation_type_selection:
-            result = OR(
+            result = Domain.OR(
                 [
                     result,
                     [("relation_all_ids.type_selection_id.id", "=", relation_type.id)],
@@ -137,7 +145,7 @@ class ResPartner(models.Model):
         date_args = []
         for arg in args:
             if (
-                is_leaf(arg)
+                _is_leaf(arg)
                 and isinstance(arg[0], str)
                 and arg[0].startswith("search_relation")
             ):
@@ -146,12 +154,12 @@ class ResPartner(models.Model):
                     break
                 if not date_args:
                     date_args = [("search_relation_date", "=", fields.Date.today())]
-        # because of auto_join, we have to do the active test by hand
+        # Need to do the active test manually for relation fields
         active_args = []
         if self.env.context.get("active_test", True):
             for arg in args:
                 if (
-                    is_leaf(arg)
+                    _is_leaf(arg)
                     and isinstance(arg[0], str)
                     and arg[0].startswith("search_relation")
                 ):
