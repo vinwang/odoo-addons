@@ -1,114 +1,111 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * partner_multi_relation
+#	* partner_multi_relation
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-26 15:33+0000\n"
-"PO-Revision-Date: 2017-12-26 15:33+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/oca/teams/23907/"
-"zh_CN/)\n"
-"Language: zh_CN\n"
+"POT-Creation-Date: 2026-02-26 00:00+0000\n"
+"PO-Revision-Date: 2026-02-26 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "%s partner incompatible with relation type."
-msgstr ""
+msgstr "%s 业务伙伴与关系类型不兼容。"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__active
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__active
 msgid "Active"
 msgstr "有效"
 
 #. module: partner_multi_relation
-#: model:ir.model,name:vin_partner_relation.model_res_partner_relation_all
+#: model:ir.model,name:partner_multi_relation.model_res_partner_relation_all
 msgid "All (non-inverse + inverse) relations between partners"
-msgstr ""
+msgstr "业务伙伴之间的所有（正向+反向）关系"
 
 #. module: partner_multi_relation
-#: model:ir.model,name:vin_partner_relation.model_res_partner_relation_type_selection
+#: model:ir.model,name:partner_multi_relation.model_res_partner_relation_type_selection
 msgid "All relation types"
-msgstr ""
+msgstr "所有关系类型"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner__relation_all_ids
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_users__relation_all_ids
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__relation_all_ids
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__relation_all_ids
 msgid "All relations with current partner"
-msgstr ""
+msgstr "当前业务伙伴的所有关系"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields.selection,name:vin_partner_relation.selection__res_partner_relation_type__handle_invalid_onchange__ignore
+#: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__ignore
 msgid "Allow existing relations that do not fit changed conditions"
-msgstr ""
+msgstr "允许不符合已更改条件的现有关系"
 
 #. module: partner_multi_relation
-#: model:ir.model,name:vin_partner_relation.model_res_partner
+#: model:ir.model,name:partner_multi_relation.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "联系人"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__create_uid
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__create_uid
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__create_uid
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__create_uid
 msgid "Created by"
 msgstr "创建者"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__create_date
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__create_date
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__create_date
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__create_date
 msgid "Created on"
 msgstr "创建时间"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__partner_category_this
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__partner_category_this
 msgid "Current record's category"
-msgstr ""
+msgstr "当前记录的类别"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__contact_type_this
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__contact_type_this
 msgid "Current record's partner type"
-msgstr ""
+msgstr "当前记录的业务伙伴类型"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields.selection,name:vin_partner_relation.selection__res_partner_relation_type__handle_invalid_onchange__delete
+#: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__delete
 msgid "Delete relations that do not fit changed conditions"
-msgstr ""
+msgstr "删除不符合已更改条件的关系"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__right_partner_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__right_partner_id
 msgid "Destination Partner"
-msgstr ""
+msgstr "目标业务伙伴"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__display_name
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__display_name
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__display_name
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__display_name
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__display_name
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__display_name
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__display_name
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__display_name
 msgid "Display Name"
 msgstr "显示名称"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields.selection,name:vin_partner_relation.selection__res_partner_relation_type__handle_invalid_onchange__restrict
+#: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__restrict
 msgid "Do not allow change that will result in invalid relations"
-msgstr ""
+msgstr "不允许导致无效关系的更改"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields.selection,name:vin_partner_relation.selection__res_partner_relation_type__handle_invalid_onchange__end
+#: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__end
 msgid "End relations per today, if they do not fit changed conditions"
-msgstr ""
+msgstr "如果不符合已更改条件，今日结束关系"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__date_end
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__date_end
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__date_end
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__date_end
 msgid "Ending date"
 msgstr "结束日期"
 
@@ -119,124 +116,124 @@ msgid "Error!"
 msgstr "错误！"
 
 #. module: partner_multi_relation
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.search_res_partner_relation_all
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Group By"
 msgstr "分组"
 
 #. module: partner_multi_relation
-#: model:res.partner.relation.type,name_inverse:vin_partner_relation.rel_type_assistant
+#: model:res.partner.relation.type,name_inverse:partner_multi_relation.rel_type_assistant
 msgid "Has assistant"
-msgstr ""
+msgstr "有助理"
 
 #. module: partner_multi_relation
-#: model:res.partner.relation.type,name_inverse:vin_partner_relation.rel_type_has_worked_for
+#: model:res.partner.relation.type,name_inverse:partner_multi_relation.rel_type_has_worked_for
 msgid "Has former employee"
-msgstr ""
+msgstr "有前员工"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner__search_relation_type_id
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_users__search_relation_type_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_type_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_type_id
 msgid "Has relation of type"
-msgstr ""
+msgstr "具有类型关系"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner__search_relation_partner_id
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_users__search_relation_partner_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_partner_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_partner_id
 msgid "Has relation with"
-msgstr ""
+msgstr "具有关系"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner__search_relation_partner_category_id
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_users__search_relation_partner_category_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_partner_category_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_partner_category_id
 msgid "Has relation with a partner in category"
-msgstr ""
+msgstr "与某类别业务伙伴有关系"
 
 #. module: partner_multi_relation
-#: model:res.partner.relation.type,name:vin_partner_relation.rel_type_has_worked_for
+#: model:res.partner.relation.type,name:partner_multi_relation.rel_type_has_worked_for
 msgid "Has worked for"
-msgstr ""
+msgstr "曾任职于"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__id
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__id
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__id
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__id
 msgid "ID"
 msgstr "ID"
 
 #. module: partner_multi_relation
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.search_res_partner_relation_all
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Include past records"
-msgstr ""
+msgstr "包含历史记录"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__handle_invalid_onchange
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__handle_invalid_onchange
 msgid "Invalid relation handling"
-msgstr ""
+msgstr "无效关系处理"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__name_inverse
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__name_inverse
 msgid "Inverse name"
-msgstr ""
+msgstr "反向名称"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,help:vin_partner_relation.field_res_partner_relation_all__is_inverse
-#: model:ir.model.fields,help:vin_partner_relation.field_res_partner_relation_type_selection__is_inverse
+#: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__is_inverse
+#: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_type_selection__is_inverse
 msgid "Inverse relations are from right to left partner."
-msgstr ""
+msgstr "反向关系是从右到左的业务伙伴。"
 
 #. module: partner_multi_relation
-#: model:res.partner.relation.type,name:vin_partner_relation.rel_type_assistant
+#: model:res.partner.relation.type,name:partner_multi_relation.rel_type_assistant
 msgid "Is assistant of"
-msgstr ""
+msgstr "是...的助理"
 
 #. module: partner_multi_relation
-#: model:res.partner.relation.type,name:vin_partner_relation.rel_type_competitor
-#: model:res.partner.relation.type,name_inverse:vin_partner_relation.rel_type_competitor
+#: model:res.partner.relation.type,name:partner_multi_relation.rel_type_competitor
+#: model:res.partner.relation.type,name_inverse:partner_multi_relation.rel_type_competitor
 msgid "Is competitor of"
-msgstr ""
+msgstr "是...的竞争对手"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__is_inverse
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__is_inverse
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__is_inverse
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__is_inverse
 msgid "Is reverse type?"
-msgstr ""
+msgstr "是否为反向类型？"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__write_uid
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__write_uid
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__write_uid
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__write_uid
 msgid "Last Updated by"
 msgstr "最后更新者"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__write_date
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__write_date
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__write_date
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__write_date
 msgid "Last Updated on"
 msgstr "最后更新时间"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__partner_category_left
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__partner_category_left
 msgid "Left partner category"
-msgstr ""
+msgstr "左侧业务伙伴类别"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__contact_type_left
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__contact_type_left
 msgid "Left partner type"
-msgstr ""
+msgstr "左侧业务伙伴类型"
 
 #. module: partner_multi_relation
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.form_res_partner_relation_type
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.form_res_partner_relation_type
 msgid "Left side of relation"
-msgstr ""
+msgstr "关系左侧"
 
 #. module: partner_multi_relation
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.search_res_partner_relation_all
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Left to right"
-msgstr ""
+msgstr "从左到右"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__name
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__name
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__name
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__name
 msgid "Name"
 msgstr "名称"
 
@@ -244,73 +241,73 @@ msgstr "名称"
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "No %s partner available for relation type."
-msgstr ""
+msgstr "没有可用的 %s 业务伙伴用于此关系类型。"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "No relation type specified in vals: %s."
-msgstr ""
+msgstr "vals 中未指定关系类型：%s。"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__this_partner_id
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.search_res_partner_relation_all
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__this_partner_id
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "One Partner"
-msgstr ""
+msgstr "一个业务伙伴"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 msgid "Organisation"
-msgstr ""
+msgstr "组织"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__other_partner_id
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.search_res_partner_relation_all
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__other_partner_id
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Other Partner"
-msgstr ""
+msgstr "另一方业务伙伴"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__partner_category_other
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__partner_category_other
 msgid "Other record's category"
-msgstr ""
+msgstr "另一方记录的类别"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__contact_type_other
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__contact_type_other
 msgid "Other record's partner type"
-msgstr ""
+msgstr "另一方记录的业务伙伴类型"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__any_partner_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__any_partner_id
 msgid "Partner"
 msgstr "业务伙伴"
 
 #. module: partner_multi_relation
-#: model:ir.model,name:vin_partner_relation.model_res_partner_relation_type
+#: model:ir.model,name:partner_multi_relation.model_res_partner_relation_type
 msgid "Partner Relation Type"
-msgstr ""
+msgstr "业务伙伴关系类型"
 
 #. module: partner_multi_relation
-#: model:ir.actions.act_window,name:vin_partner_relation.action_res_partner_relation_type
+#: model:ir.actions.act_window,name:partner_multi_relation.action_res_partner_relation_type
 msgid "Partner Relations Types"
-msgstr ""
+msgstr "业务伙伴关系类型"
 
 #. module: partner_multi_relation
-#: model:ir.model,name:vin_partner_relation.model_res_partner_relation
+#: model:ir.model,name:partner_multi_relation.model_res_partner_relation
 msgid "Partner relation"
-msgstr ""
+msgstr "业务伙伴关系"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 msgid "Partners cannot have a relation with themselves."
-msgstr ""
+msgstr "业务伙伴不能与自己建立关系。"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 msgid "Person"
-msgstr ""
+msgstr "个人"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -319,30 +316,33 @@ msgid ""
 "Programming error: Argument \"side\" of method \"_check_partner\" can just "
 "be called with a value of \"left\" or \"right\"."
 msgstr ""
+"编程错误：方法 \"_check_partner\" 的参数 \"side\" 只能使用 \"left\" 或 \"right\" 值调用。"
 
 #. module: partner_multi_relation
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.form_res_partner_relation_type
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.form_res_partner_relation_type
 msgid "Properties"
 msgstr "属性"
 
 #. module: partner_multi_relation
-#: model_terms:ir.actions.act_window,help:vin_partner_relation.action_res_partner_relation_all
+#: model_terms:ir.actions.act_window,help:partner_multi_relation.action_res_partner_relation_all
 msgid ""
 "Record and track your partners' relations. Relations may\n"
 "                be linked to other partners with a type either directly\n"
 "                or inversely."
 msgstr ""
+"记录和跟踪您的业务伙伴关系。关系可以\n"
+"                直接或反向与其他业务伙伴关联。"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,help:vin_partner_relation.field_res_partner_relation_all__active
+#: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__active
 msgid "Records with date_end in the past are inactive"
-msgstr ""
+msgstr "结束日期已过的记录为非活动状态"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__allow_self
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__allow_self
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__allow_self
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__allow_self
 msgid "Reflexive"
-msgstr ""
+msgstr "自反"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -351,132 +351,133 @@ msgid ""
 "Reflexivity could not be disabled for the relation type %s. There are "
 "existing reflexive relations defined for the following partners: %s"
 msgstr ""
+"无法禁用关系类型 %s 的自反性。以下业务伙伴已定义自反关系：%s"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner__relation_count
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_users__relation_count
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__relation_count
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__relation_count
 msgid "Relation Count"
-msgstr ""
+msgstr "关系数量"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__type_selection_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__type_selection_id
 msgid "Relation Type"
-msgstr ""
+msgstr "关系类型"
 
 #. module: partner_multi_relation
-#: model:ir.ui.menu,name:vin_partner_relation.menu_res_partner_relation_type
+#: model:ir.ui.menu,name:partner_multi_relation.menu_res_partner_relation_type
 msgid "Relation Types"
-msgstr ""
+msgstr "关系类型"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "Relation type incompatible with selected partner(s)."
-msgstr ""
+msgstr "关系类型与所选业务伙伴不兼容。"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner__search_relation_date
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_users__search_relation_date
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner__search_relation_date
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_users__search_relation_date
 msgid "Relation valid"
-msgstr ""
+msgstr "关系有效期"
 
 #. module: partner_multi_relation
-#: model:ir.actions.act_window,name:vin_partner_relation.action_res_partner_relation_all
-#: model:ir.ui.menu,name:vin_partner_relation.menu_res_partner_relation
-#: model:ir.ui.menu,name:vin_partner_relation.menu_res_partner_relation_all
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.view_partner_form
+#: model:ir.actions.act_window,name:partner_multi_relation.action_res_partner_relation_all
+#: model:ir.ui.menu,name:partner_multi_relation.menu_res_partner_relation
+#: model:ir.ui.menu,name:partner_multi_relation.menu_res_partner_relation_all
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.view_partner_form
 msgid "Relations"
-msgstr ""
+msgstr "关系"
 
 #. module: partner_multi_relation
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.search_res_partner_relation_all
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Relationship Type"
-msgstr ""
+msgstr "关系类型"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__res_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__res_id
 msgid "Resource ID"
-msgstr ""
+msgstr "资源ID"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__res_model
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__res_model
 msgid "Resource Model"
-msgstr ""
+msgstr "资源模型"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__partner_category_right
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__partner_category_right
 msgid "Right partner category"
-msgstr ""
+msgstr "右侧业务伙伴类别"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__contact_type_right
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__contact_type_right
 msgid "Right partner type"
-msgstr ""
+msgstr "右侧业务伙伴类型"
 
 #. module: partner_multi_relation
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.form_res_partner_relation_type
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.form_res_partner_relation_type
 msgid "Right side of relation"
-msgstr ""
+msgstr "关系右侧"
 
 #. module: partner_multi_relation
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.search_res_partner_relation_all
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Right to left"
-msgstr ""
+msgstr "从右到左"
 
 #. module: partner_multi_relation
-#: model_terms:ir.ui.view,arch_db:vin_partner_relation.search_res_partner_relation_all
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
 msgid "Search Relations"
-msgstr ""
+msgstr "搜索关系"
 
 #. module: partner_multi_relation
-#: model:ir.actions.act_window,name:vin_partner_relation.action_show_partner_multi_relation
+#: model:ir.actions.act_window,name:partner_multi_relation.action_show_partner_multi_relation
 msgid "Show partner's relations"
-msgstr ""
+msgstr "显示业务伙伴的关系"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__left_partner_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__left_partner_id
 msgid "Source Partner"
-msgstr ""
+msgstr "源业务伙伴"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__date_start
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__date_start
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__date_start
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__date_start
 msgid "Starting date"
-msgstr ""
+msgstr "开始日期"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type__is_symmetric
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__is_symmetric
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__is_symmetric
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__is_symmetric
 msgid "Symmetric"
-msgstr ""
+msgstr "对称"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 msgid "The %s partner does not have category %s."
-msgstr ""
+msgstr "%s 业务伙伴没有类别 %s。"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 msgid "The %s partner is not applicable for this relation type."
-msgstr ""
+msgstr "%s 业务伙伴不适用于此关系类型。"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,help:vin_partner_relation.field_res_partner_relation_all__res_model
+#: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__res_model
 msgid "The database object this relation is based on."
-msgstr ""
+msgstr "此关系所基于的数据库对象。"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,help:vin_partner_relation.field_res_partner_relation_all__res_id
+#: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__res_id
 msgid "The id of the object in the model this relation is based on."
-msgstr ""
+msgstr "此关系所基于的模型中对象的ID。"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 msgid "The starting date cannot be after the ending date."
-msgstr ""
+msgstr "开始日期不能晚于结束日期。"
 
 #. module: partner_multi_relation
 #. odoo-python
@@ -484,81 +485,81 @@ msgstr ""
 msgid ""
 "There are already relations not satisfying the conditions for partner type "
 "or category."
-msgstr ""
+msgstr "已存在不满足业务伙伴类型或类别条件的关系。"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 msgid "There is already a similar relation with overlapping dates"
-msgstr ""
+msgstr "已存在日期重叠的类似关系"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,help:vin_partner_relation.field_res_partner_relation_type__allow_self
+#: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_type__allow_self
 msgid "This relation can be set up with the same partner left and right"
-msgstr ""
+msgstr "此关系可以在左右两侧使用同一业务伙伴"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,help:vin_partner_relation.field_res_partner_relation_type__is_symmetric
+#: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_type__is_symmetric
 msgid "This relation is the same from right to left as from left to right"
-msgstr ""
+msgstr "此关系从右到左与从左到右相同"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation__type_id
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_type_selection__type_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation__type_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__type_id
 msgid "Type"
 msgstr "类型"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,field_description:vin_partner_relation.field_res_partner_relation_all__type_id
+#: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__type_id
 msgid "Underlying Relation Type"
-msgstr ""
+msgstr "底层关系类型"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner.py:0
 msgid "Unsupported search operator \"%s\""
-msgstr ""
+msgstr "不支持的搜索操作符 \"%s\""
 
 #. module: partner_multi_relation
-#: model:res.partner.category,name:vin_partner_relation.res_partner_category_pmr_0
+#: model:res.partner.category,name:partner_multi_relation.res_partner_category_pmr_0
 msgid "Washing Companies"
-msgstr ""
+msgstr "洗涤公司"
 
 #. module: partner_multi_relation
-#: model:res.partner.category,name:vin_partner_relation.res_partner_category_pmr_4
+#: model:res.partner.category,name:partner_multi_relation.res_partner_category_pmr_4
 msgid "Washing Gold"
-msgstr ""
+msgstr "洗涤金卡"
 
 #. module: partner_multi_relation
-#: model:res.partner.category,name:vin_partner_relation.res_partner_category_pmr_11
+#: model:res.partner.category,name:partner_multi_relation.res_partner_category_pmr_11
 msgid "Washing Services"
-msgstr ""
+msgstr "洗涤服务"
 
 #. module: partner_multi_relation
-#: model:res.partner.category,name:vin_partner_relation.res_partner_category_pmr_5
+#: model:res.partner.category,name:partner_multi_relation.res_partner_category_pmr_5
 msgid "Washing Silver"
-msgstr ""
+msgstr "洗涤银卡"
 
 #. module: partner_multi_relation
-#: model:ir.model.fields,help:vin_partner_relation.field_res_partner_relation_type__handle_invalid_onchange
+#: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_type__handle_invalid_onchange
 msgid ""
 "When adding relations criteria like partner type and category are checked.\n"
 "However when you change the criteria, there might be relations that do not "
 "fit the new criteria.\n"
 "Specify how this situation should be handled."
 msgstr ""
+"添加关系时会检查业务伙伴类型和类别等条件。\n"
+"但是当您更改条件时，可能存在不符合新条件的关系。\n"
+"请指定如何处理这种情况。"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "other"
-msgstr ""
+msgstr "其他"
 
 #. module: partner_multi_relation
 #. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 msgid "this"
-msgstr ""
-
-#~ msgid "Last Modified on"
-#~ msgstr "最后修改时间"
+msgstr "此"
