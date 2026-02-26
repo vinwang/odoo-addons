@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- 设置全局日志默认启用 -->
+        <record id="ir_config_parameter_global_logging" model="ir.config_parameter">
+            <field name="key">user_operation_log.global_logging_enabled</field>
+            <field name="value">True</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,423 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* user_operation_log
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-12 09:17+0000\n"
+"PO-Revision-Date: 2026-02-12 09:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (Simplified)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: user_operation_log
+#: model:ir.model,name:user_operation_log.model_user_operation_log
+msgid "User Operation Log"
+msgstr "用户操作日志"
+
+#. module: user_operation_log
+#: model:ir.model,name:user_operation_log.model_user_operation_log_line
+msgid "User Operation Log Line"
+msgstr "用户操作日志明细"
+
+#. module: user_operation_log
+#: model:ir.model,name:user_operation_log.model_user_login_log
+msgid "User Login Log"
+msgstr "用户登录日志"
+
+#. module: user_operation_log
+#: model:ir.model,name:user_operation_log.model_user_operation_rule
+msgid "User Operation Rule"
+msgstr "用户操作规则"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__user_id
+#: model:ir.model.fields,field_description:user_operation_log.field_user_login_log__user_id
+msgid "User"
+msgstr "用户"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__user_name
+#: model:ir.model.fields,field_description:user_operation_log.field_user_login_log__user_name
+msgid "User Name"
+msgstr "用户名"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__operation_type
+msgid "Operation Type"
+msgstr "操作类型"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__model_name
+msgid "Model Name"
+msgstr "模型名称"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__model_description
+msgid "Model Description"
+msgstr "模型描述"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__record_id
+msgid "Record ID"
+msgstr "记录ID"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__record_name
+msgid "Record Name"
+msgstr "记录名称"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__operation_time
+msgid "Operation Time"
+msgstr "操作时间"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__ip_address
+#: model:ir.model.fields,field_description:user_operation_log.field_user_login_log__ip_address
+msgid "IP Address"
+msgstr "IP地址"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__user_agent
+#: model:ir.model.fields,field_description:user_operation_log.field_user_login_log__user_agent
+msgid "User Agent"
+msgstr "用户代理"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__old_values
+msgid "Old Values"
+msgstr "旧值"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__new_values
+msgid "New Values"
+msgstr "新值"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__operation_summary
+msgid "Operation Summary"
+msgstr "操作摘要"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log__log_line_ids
+msgid "Field Change Details"
+msgstr "字段变更明细"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log_line__field_name
+msgid "Field Name"
+msgstr "字段名称"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log_line__field_description
+msgid "Field Description"
+msgstr "字段描述"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log_line__old_value
+msgid "Old Value"
+msgstr "旧值"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_log_line__new_value
+msgid "New Value"
+msgstr "新值"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_login_log__login_time
+msgid "Login Time"
+msgstr "登录时间"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_login_log__logout_time
+msgid "Logout Time"
+msgstr "登出时间"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_login_log__session_id
+msgid "Session ID"
+msgstr "会话ID"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_login_log__status
+msgid "Status"
+msgstr "状态"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_login_log__failure_reason
+msgid "Failure Reason"
+msgstr "失败原因"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_rule__name
+msgid "Rule Name"
+msgstr "规则名称"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_rule__model_id
+msgid "Model"
+msgstr "模型"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_rule__user_ids
+msgid "Specific Users"
+msgstr "指定用户"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_rule__log_level
+msgid "Log Level"
+msgstr "日志级别"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_rule__fields_to_exclude_ids
+msgid "Excluded Fields"
+msgstr "排除字段"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_rule__state
+msgid "State"
+msgstr "状态"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_rule__active
+msgid "Active"
+msgstr "启用"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_res_users__operation_log_count
+msgid "Operation Log Count"
+msgstr "操作日志数量"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_res_users__login_log_count
+msgid "Login Log Count"
+msgstr "登录日志数量"
+
+#. module: user_operation_log
+#: model:ir.actions.act_window,name:user_operation_log.user_operation_log_action
+msgid "User Operation Logs"
+msgstr "用户操作日志"
+
+#. module: user_operation_log
+#: model:ir.actions.act_window,name:user_operation_log.user_login_log_action
+msgid "User Login Logs"
+msgstr "用户登录日志"
+
+#. module: user_operation_log
+#: model:ir.actions.act_window,name:user_operation_log.user_operation_rule_action
+msgid "User Operation Rules"
+msgstr "用户操作规则"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_user_operation_rule__rule_mode
+msgid "Rule Mode"
+msgstr "规则模式"
+
+#. module: user_operation_log
+#: model:ir.model.fields,help:user_operation_log.field_user_operation_rule__rule_mode
+msgid "Include: Only log this model/operation when rule exists\nExclude: Do NOT log this model/operation (blacklist)"
+msgstr "包含:仅当规则存在时记录此模型/操作\n排除:不记录此模型/操作(黑名单)"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__rule_mode__include
+msgid "Include (Whitelist)"
+msgstr "包含(白名单)"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__rule_mode__exclude
+msgid "Exclude (Blacklist)"
+msgstr "排除(黑名单)"
+
+#. module: user_operation_log
+#: model:ir.model.fields,field_description:user_operation_log.field_res_config_settings__user_operation_log_global_enabled
+msgid "Enable Global Logging"
+msgstr "启用全局日志"
+
+#. module: user_operation_log
+#: model:ir.model.fields,help:user_operation_log.field_res_config_settings__user_operation_log_global_enabled
+msgid "When enabled, all operations on all models will be logged by default. You can still use rules to exclude specific models/operations."
+msgstr "启用后,默认记录所有模型的所有操作。您仍可使用规则排除特定模型/操作。"
+
+#. module: user_operation_log
+#: model_terms:ir.ui.view,arch_db:user_operation_log.view_user_operation_log_config_settings
+msgid "User Operation Log Settings"
+msgstr "用户操作日志设置"
+
+#. module: user_operation_log
+#: model_terms:ir.ui.view,arch_db:user_operation_log.view_user_operation_log_config_settings
+msgid "When enabled, all operations on all models will be logged by default."
+msgstr "启用后,默认记录所有模型的所有操作。"
+
+#. module: user_operation_log
+#: model_terms:ir.ui.view,arch_db:user_operation_log.view_user_operation_log_config_settings
+msgid "You can still use rules to exclude specific models/operations (blacklist mode)."
+msgstr "您仍可使用规则排除特定模型/操作(黑名单模式)。"
+
+#. module: user_operation_log
+#: model_terms:ir.ui.view,arch_db:user_operation_log.user_operation_log_form_view
+msgid "Operation Summary"
+msgstr "操作摘要"
+
+#. module: user_operation_log
+#: model_terms:ir.ui.view,arch_db:user_operation_log.user_operation_log_form_view
+msgid "Field Changes"
+msgstr "字段变更"
+
+#. module: user_operation_log
+#: code:addons:user_operation_log/models/base.py:0
+#, python-format
+msgid "Record deleted"
+msgstr "记录已删除"
+
+#. module: user_operation_log
+#: code:addons:user_operation_log/models/base.py:0
+#, python-format
+msgid "Imported %d records"
+msgstr "导入了 %d 条记录"
+
+#. module: user_operation_log
+#: code:addons:user_operation_log/models/base.py:0
+#, python-format
+msgid "Exported %d records"
+msgstr "导出了 %d 条记录"
+
+#. module: user_operation_log
+#: model:ir.ui.view,arch_db:user_operation_log.user_operation_log_list_view
+msgid "User Operation Logs"
+msgstr "用户操作日志"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_log__operation_type__login
+msgid "Login"
+msgstr "登录"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_log__operation_type__create
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__operation_type__create
+msgid "Create"
+msgstr "创建"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_log__operation_type__read
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__operation_type__read
+msgid "Read"
+msgstr "读取"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_log__operation_type__write
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__operation_type__write
+msgid "Write"
+msgstr "修改"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_log__operation_type__unlink
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__operation_type__unlink
+msgid "Delete"
+msgstr "删除"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_log__operation_type__import
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__operation_type__import
+msgid "Import"
+msgstr "导入"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_log__operation_type__export
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__operation_type__export
+msgid "Export"
+msgstr "导出"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_log__operation_type__action
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__operation_type__action
+msgid "Action"
+msgstr "执行动作"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__log_level__basic
+msgid "Basic Log"
+msgstr "基础日志"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__log_level__detailed
+msgid "Detailed Log"
+msgstr "详细日志"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__state__draft
+msgid "Draft"
+msgstr "草稿"
+
+#. module: user_operation_log
+#: model:ir.model.fields.selection,name:user_operation_log.selection__user_operation_rule__state__active
+msgid "Active"
+msgstr "激活"
+
+#. module: user_operation_log
+#: code:addons:user_operation_log/models/base.py:0
+#, python-format
+msgid "Deleted Record"
+msgstr "已删除记录"
+
+#. module: user_operation_log
+#: model:ir.ui.view,arch_db:user_operation_log.user_operation_log_form_view
+msgid "User Operation Log"
+msgstr "用户操作日志"
+
+#. module: user_operation_log
+#: model:ir.ui.view,arch_db:user_operation_log.user_login_log_list_view
+msgid "User Login Logs"
+msgstr "用户登录日志"
+
+#. module: user_operation_log
+#: model:ir.ui.view,arch_db:user_operation_log.user_login_log_form_view
+msgid "User Login Log"
+msgstr "用户登录日志"
+
+#. module: user_operation_log
+#: model:ir.ui.view,arch_db:user_operation_log.user_operation_rule_list_view
+msgid "User Operation Rules"
+msgstr "用户操作规则"
+
+#. module: user_operation_log
+#: model:ir.ui.view,arch_db:user_operation_log.user_operation_rule_form_view
+msgid "User Operation Rule"
+msgstr "用户操作规则"
+
+#. module: user_operation_log
+#: model:ir.ui.menu,name:user_operation_log.user_operation_log_menu
+msgid "User Operation Log"
+msgstr "操作日志"
+
+#. module: user_operation_log
+#: model:ir.ui.menu,name:user_operation_log.user_operation_log_submenu
+msgid "Operation Logs"
+msgstr "操作日志"
+
+#. module: user_operation_log
+#: model:ir.ui.menu,name:user_operation_log.user_login_log_submenu
+msgid "Login Logs"
+msgstr "登录日志"
+
+#. module: user_operation_log
+#: model:ir.ui.menu,name:user_operation_log.user_operation_rule_submenu
+msgid "Operation Rules"
+msgstr "日志规则"
+
+#. module: user_operation_log
+#: model:ir.actions.act_window,name:user_operation_log.user_login_log_action
+msgid "User Login Logs"
+msgstr "用户登录日志"
+
+#. module: user_operation_log
+#: model:ir.actions.act_window,name:user_operation_log.user_operation_rule_action
+msgid "User Operation Rules"
+msgstr "用户操作规则"

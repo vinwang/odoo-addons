@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- 
+            在全局监控模式下（user_operation_log.global_logging_enabled = True），
+            不再需要预置 Include 规则。
+            
+            如果需要排除特定模型或操作，请在此处或通过界面创建模式为 'exclude' 的规则。
+        -->
+        
+        <!-- 示例：排除基础消息模型以减少日志量（可选） -->
+        <!--
+        <record id="rule_mail_message_exclude" model="user.operation.rule">
+            <field name="name">Exclude Mail Messages</field>
+            <field name="model_id" ref="mail.model_mail_message"/>
+            <field name="operation_type">write</field>
+            <field name="rule_mode">exclude</field>
+            <field name="state">active</field>
+        </record>
+        -->
+    </data>
+</odoo>
